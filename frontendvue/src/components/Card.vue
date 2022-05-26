@@ -23,13 +23,40 @@
         <h3><span>#idEdificio: </span> 26385</h3>
       </div>
       <div class="card__header-meta">
-        <h3><span>Nombre: </span> SJ49BA - 26385 - 1</h3>
         <h3>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-border-width"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-2zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"
+            /></svg
+          ><span>Nombre: </span> SJ49BA - 26385 - 1
+        </h3>
+        <h3>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-geo-alt-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+            />
+          </svg>
           <span>Dirección: </span> HIPOLITO YRIGOYEN 3372 , ALMAGRO , CDAD DE
           BUENOS AIRES
         </h3>
       </div>
-      <div class="card__header-timestamp">Última Monitoria : 12-05-25 14:55HS</div>
+      <div class="card__header-timestamp">
+        Última Monitoria : 12-05-25 14:55HS
+      </div>
     </div>
     <div class="card__body">
       <div class="card__section" id="left-section">
@@ -48,7 +75,7 @@
         <p><span>Low Fec :</span></p>
         <h5 class="card__section-subHeading">Diferencia</h5>
         <p><span>nivel_ds_ch3 :</span>123</p>
-        <p><span>nivel_ds_ch116:</span>27.51</p>        
+        <p><span>nivel_ds_ch116:</span>27.51</p>
         <h5 class="card__section-subHeading">Fw</h5>
         <p><span>input_gain :</span>123</p>
         <p><span>input_eq:</span>27.51</p>
@@ -118,16 +145,16 @@ export default {
   font-weight: 300;
 }
 
-.card__body{
-    display: grid;
-    grid-template-columns: 50% 50%;
+.card__body {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
-.card__section{
-    padding:12px;
+.card__section {
+  padding: 12px;
 }
 
-#left-section{
-    border-right:thin solid rgb(221, 221, 221);
+#left-section {
+  border-right: thin solid rgb(221, 221, 221);
 }
 </style>
