@@ -1,14 +1,16 @@
 <template>
-  <div>
-    <h1>VUEJSS</h1>
-    <input id="idAmpli2" v-model="inputted"/>
+  <div class="container">
+    <Card/>
   </div>
 </template>
 
 <script>
-
+import Card from './components/Card.vue'
 export default {
   name:"App",
+  components:{
+    Card,
+  },
   data(){
     return {
       idAmplificador:null,
@@ -38,5 +40,11 @@ export default {
 </script>
 
 <style>
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 </style>
